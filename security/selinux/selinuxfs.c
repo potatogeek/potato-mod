@@ -163,6 +163,7 @@ static ssize_t sel_write_enforce(struct file *file, const char __user *buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	// [ SEC_SELINUX_PORTING_COMMON
 #ifdef CONFIG_ALWAYS_ENFORCE
 	// If build is user build and enforce option is set, selinux is always enforcing
@@ -185,6 +186,8 @@ static ssize_t sel_write_enforce(struct file *file, const char __user *buf,
 #else
 	if (new_value != selinux_enforcing) { // SEC_SELINUX_PORTING_COMMON Change to use RKP
 =======
+=======
+>>>>>>> 5c58271b4 (selinux: Add togglable selinux boot status)
 =======
 >>>>>>> 5c58271b4 (selinux: Add togglable selinux boot status)
 =======
