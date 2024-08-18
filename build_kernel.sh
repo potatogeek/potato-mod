@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export PATH=$(pwd)/toolchain/clang/host/linux-x86/clang-r522817/bin:$PATH
-export CROSS_COMPILE=$(pwd)/toolchain/clang/host/linux-x86/clang-r522817/bin/aarch64-linux-gnu-
-export CC=$(pwd)/toolchain/clang/host/linux-x86/clang-r522817/bin/clang
+export PATH=/home/gabrieln/clang/bin:$PATH
+export CROSS_COMPILE=/home/gabrieln/clang/bin/aarch64-linux-gnu-
+export CC=/home/gabrieln/clang/bin/clang
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export ARCH=arm64
 export PLATFORM_VERSION=14
